@@ -1,0 +1,282 @@
+:root {
+  --color1: #000080;
+  --color2: #EEEDE7;
+  --color3: #868B8E;
+ --border: var(--color1) solid 6px;
+
+}
+
+body {
+  background: var(--color3);
+}
+
+::-webkit-scrollbar:horizontal {
+  display: none;
+}
+
+.header > li {
+float: right;
+margin-right: 1em;
+margin-top: 1em;
+}
+
+nav.header{
+  display: flex;
+  align-items: flex-end;
+}
+
+nav > ul {
+  position: relative;
+  right: 1%;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: var(--color1);
+  width: 100%;
+  min-height: 8em;
+}
+
+.header > li a {
+  color: white;
+  text-align: right;
+  text-decoration: underline;
+  position: relative;
+  right: 20%;
+}
+
+.header > li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.name {
+  position: relative;
+  right: 10%;
+}
+ h1 {
+  text-align: center;
+  color: var(--color2);
+  background-color: var(--color3);
+  border: solid black 5px;
+  width: 23%;
+}
+
+div > h2 {
+  background-image: url(https://images.unsplash.com/photo-1580584126903-c17d41830450?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2137&q=80);
+  color: var(--color2);
+  text-align: center;
+  border: var(--border);
+  width: 100%;
+  min-height: 5em;
+  position: relative;
+  right: 1%;
+}
+
+.FullStack {
+  text-align: center;
+}
+
+.myself{
+  width: 80%;
+  margin: 1.5em;
+  border: var(--border);
+}
+
+.headers {
+  background: var(--color1);
+  color: var(--color2);
+  text-align: center;
+  width: 100%;
+  border: var(--border);
+}
+
+.center{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.center > ul {
+  list-style-type: none;
+}
+
+ #surfReport, #ledWall, #calculator,
+ #pastelPuzzles, #runBuddy {
+   width: 100%;
+   height: 50%;
+   position: relative;
+   right: 10%;
+   border: var(--border)
+ }
+
+ @media screen and (min-width: 320px) {
+   .me {
+     text-align: center;
+    }
+  
+  }
+
+@media screen and (min-width: 850px){
+  .name {
+    position: relative;
+    left: 1em;
+  }
+  
+  .me {
+    font-size: 2em;
+    text-align: center;
+  }
+  div > h2 {
+    min-height: 10em;
+  }
+  
+  .myself {
+    width: 30%;
+    position: relative;
+    left: 30%;
+  }
+
+  #surfReport, #ledWall, #calculator,
+ #pastelPuzzles, #runBuddy {
+   width: 60%;
+    right: -8em;
+}
+}
+
+@media screen and (min-width: 1300px) {
+  .name {
+    width: 10%
+  }
+  
+  .me {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .myself {
+    width: 15%;
+    position: relative;
+    left: 40%;
+  }
+
+  .projects {
+    display: flex;
+  }
+
+ #surfReport {
+ position: relative;
+ left: 15%;
+ height: 90%;
+ width: 70%;
+ }
+
+  #ledWall {
+   position: relative;
+  left: 19%;
+  width: 40%;
+  height: 70%;
+ }
+
+ #calculator {
+   position: relative;
+   bottom: 95%;
+   left: 94.5%;
+   height: 64.5%;
+ }
+
+ #pastelPuzzles {
+   bottom: 24em;
+   left: 12em;
+   width: 25.5em;
+   height: 13em;
+ }
+
+ #runBuddy {
+  bottom: 39em;
+  left: 41em;
+  width: 25.5em;
+  height: 13em;
+ }
+
+.last {
+  position: relative;
+  bottom: 30em;
+  width: 90em;
+}
+
+.last ul {
+  font-size: 1.5em;
+  list-style-type: none;
+  text-align: center;
+}
+}
+
+@media  screen and (min-width:1450px) {
+  .projects{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: normal;
+    align-items: baseline;
+  }
+  #surfReport:hover{
+    background-color: --color2;
+    border: 8px solid var(--color2);
+    opacity: 100%;
+  }
+
+  #ledWall {
+    position: relative;
+   left: 16.5em;
+   width: 38em;
+   height: 15em;
+   top: 2em;
+  }
+  #ledWall:hover{
+    background-color: --color2;
+    border: 8px solid var(--color2);
+    opacity: 100%;
+  }
+ 
+  #calculator {
+    position: relative;
+    width: 37em;
+    height: 15em;
+    left: 57em;
+    bottom: 15em;
+  }
+  #calculator:hover{
+    background-color: --color2;
+    border: 8px solid var(--color2);
+    opacity: 100%;
+  }
+ 
+  #pastelPuzzles {
+    position: relative;
+    bottom: 13em;
+    width: 38em;
+    height: 15em;
+    left: 16.5em;
+  }
+  #pastelPuzzles:hover {
+    background-color: --color2;
+    border: 8px solid var(--color2);
+    opacity: 100%;
+  }
+ 
+  #runBuddy {
+    width: 37em;
+    height: 15em;
+    left: 57em;
+    bottom: 30em;
+  }
+#runBuddy:hover {
+  color: var(--color3);
+  border: 8px solid var(--color2);
+  opacity: 100%;
+}
+
+ .last {
+  bottom: 15em;
+  width: 110em;
+ }
+
+}
