@@ -14,6 +14,7 @@ body {
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 100%;
+  width: 100%;
 }
 
 @keyframes gradient {
@@ -71,15 +72,12 @@ h1 {
   width: 30%;
 }
 
-div > h2 {
+.FullStack {
   background-image: url(https://images.unsplash.com/photo-1580584126903-c17d41830450?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2137&q=80);
   color: var(--color2);
   width: 100%;
-  max-height: 25%;
+  min-height: 4em;
   position: relative;
-}
-
-.FullStack {
   text-align: center;
   font-size: 3em;
 }
@@ -101,7 +99,7 @@ div > h2 {
   background-image: linear-gradient(to right, #434343 0%, black 100%);
   color: var(--color2);
   text-align: center;
-  width: 100%
+  width: 100%;
   margin-bottom: 1.5rem;
 }
 
