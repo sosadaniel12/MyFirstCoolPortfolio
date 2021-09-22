@@ -47,6 +47,9 @@ nav > ul {
   width: 100%;
   min-height: 8em;
 }
+.header {
+  font-size: 1.5em;
+}
 
 .header > li a {
   color: white;
@@ -69,6 +72,7 @@ h1 {
   color: black;
   background-color: var(--color3);
   border: solid black 2px;
+
   width: 30%;
 }
 
@@ -106,6 +110,7 @@ h1 {
 .last {
   position: relative;
   top: 4em;
+  text-align: center;
 }
 
 @media screen and (min-width: 320px) {
@@ -133,7 +138,11 @@ h1 {
   }
 }
 
-@media screen and (min-width: 850px) {
+@media screen and(min-width: 581px) {
+  .header {
+    font-size: 10px;
+  }
+
   .name {
     position: relative;
     left: 1em;
@@ -148,7 +157,7 @@ h1 {
   }
 
   .myself {
-    width: 30%;
+    width: 20%;
     position: relative;
     left: 30%;
   }
