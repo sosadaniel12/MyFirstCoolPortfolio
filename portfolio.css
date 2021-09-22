@@ -90,6 +90,9 @@ div > h2 {
   border-radius: 30px;
 }
 
+#project1 {
+  width: 85%;
+}
 .caption {
   width: 100%;
 }
@@ -98,9 +101,13 @@ div > h2 {
   background-image: linear-gradient(to right, #434343 0%, black 100%);
   color: var(--color2);
   text-align: center;
-  width: 100%;
-  height: 60%;
+  width: 100%
   margin-bottom: 1.5rem;
+}
+
+.last {
+  position: relative;
+  top: 4em;
 }
 
 @media screen and (min-width: 320px) {
