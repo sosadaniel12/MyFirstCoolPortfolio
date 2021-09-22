@@ -7,11 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
 </head>
 
 <body>
+
     <header>
-    </header>
+   
     <nav>
         <ul class=" header">
             <li><a href="#Contact Me">| Contact Me |</a></li>
@@ -20,6 +23,7 @@
             <h1 class="name">Daniel Sosa</h1>
         </ul>
     </nav>
+</header>
     <div>
         <h2 class="FullStack">Full Stack Developer</h2>
     </div>
@@ -55,60 +59,50 @@
             </p>
         </section>
         <div>
-            <figure>
-                <img class="myself" src="/Users/Public/Pictures/danielsosapic.jpg" alt="picture of a guy">
+            <figure">
+                <img class="myself" src="danielsosapic.jpg" alt="picture of a guy">
             </figure>
         </div>
-        <h2 id="Work" class="headers">Projects</h2>
-        <div class="center">
-            <ul>
-                <figure>
-                    <li>
-                        <div class="projects">
-                            <a href="https://placeholder.com"><img id="surfReport"
-                                    src="https://www.hakaimagazine.com/wp-content/uploads/header-climate-change-waves.jpg">
-                        </div>
-                    </li>
-                    <figure>
-                    </figure>
-                    <li>
-                        <div class="projects">
-                            <a href="https://placeholder.com"><img id="ledWall"
-                                    src="https://onewayeventproductions.com/wp-content/uploads/2020/02/AdobeStock_289192813.jpeg"></a>
-                        </div>
-                    </li>
-                    <figure>
-                    </figure>
-                    <li>
-                        <div class="projects">
-                            <a href="https://placeholder.com"><img id="calculator"
-                                    src="https://www.lpl.com/content/dam/lpl-www/images/Article_Page/ARTICLE-calculator-image-680x500.jpg">
-                            </a>
-                        </div>
-                    </li>
-                    <figure>
-                    </figure>
-                    <li>
-                        <div class="projects">
-                            <a href="https://placeholder.com"><img id="pastelPuzzles"
-                                    src="https://cdn.shopify.com/s/files/1/0268/5603/0293/files/jigsaw-puzzle-black-and-white-puzzle-monochrome-wallpaper-preview_300x.jpg?v=1626641890">
-                            </a>
-
-                        </div>
-                    </li>
-                </figure>
-                <figure>
-                    <li>
-                        <div class="projects">
-                            <a href="https://placeholder.com"><img id="runBuddy"
-                                    src="https://i.guim.co.uk/img/media/75e8e0c0050256d79e7748136eedd0d26d09b503/0_0_4552_2732/master/4552.jpg?width=445&quality=45&auto=format&fit=max&dpr=2&s=7600a4bff0795e3a040b90c9126ed3e4">
-                            </a>
-
-                        </div>
-                    </li>
-                </figure>
-            </ul>
-            </section>
+        <h2 class="headers">Projects</h2>
+        <div class="container">
+            <div class="row">
+            <div class="col">
+        <figure class="projects" id="project1">
+            <img src="https://www.hakaimagazine.com/wp-content/uploads/header-climate-change-waves.jpg" class="img-thumbnail" alt="...">
+            <figcaption class="caption">This is my first project</figcaption>
+        </figure>
+    </div>
+</div>
+    <div class="row">
+    <div class="col">
+<figure class="projects">
+          <img src="https://onewayeventproductions.com/wp-content/uploads/2020/02/AdobeStock_289192813.jpeg" class="img-thumbnail" alt="...">
+          <figcaption class="caption">This will be my second project</figcaption>
+        </figure>
+    </div>
+        <div class="col">
+        <figure class="projects">
+          <img src="https://onewayeventproductions.com/wp-content/uploads/2020/02/AdobeStock_289192813.jpeg" class="img-thumbnail" alt="...">
+          <figcaption class="caption">This will be my third project</figcaption>
+        </figure>
+    </div>
+</div>
+        <div class="row">
+        <div class="col">
+        <figure class="projects">
+          <img src="https://onewayeventproductions.com/wp-content/uploads/2020/02/AdobeStock_289192813.jpeg" class="img-thumbnail" alt="...">
+          <figcaption class="caption">This will be my fourth project</figcaption>
+        </figure>
+    </div>
+        <div class="col">
+        <figure class="projects">
+          <img src="https://onewayeventproductions.com/wp-content/uploads/2020/02/AdobeStock_289192813.jpeg" class="img-thumbnail" alt="...">
+          <figcaption class="caption">This will be my fifth project</figcaption>
+        </figure>
+    </div>
+    </div>
+</div>
+     
             <section class="last">
                 <h2 id="Contact Me" class="headers">Contact Me</h2>
                 <ul>
@@ -122,8 +116,18 @@
                     <li>Email: danielsosa2121@gmail.com</li>
                     <br>
                     <li>Phone Number: 903-243-0633</li>
+                    <br>
+                    <li>Resume: <a href="DanielSosa_Resume2021.pdf">My Resume</a></li>
                 </ul>
             </section>
+            <div class="d-flex flex-column justify-content-center w-100 h-100">
+<div class="d-flex flex-column justify-content-center align-items-center">
+                    <div class="btn-group my-5">
+                </div>
+                    </div>
+            </div>
+            </div>
+            <script src="/portfolio.js"></script>
     </main>
 </body>
 
