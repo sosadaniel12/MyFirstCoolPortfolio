@@ -73,7 +73,6 @@ h1 {
   color: black;
   background-color: var(--color3);
   border: solid black 2px;
-
   width: 30%;
 }
 
@@ -98,17 +97,34 @@ h1 {
 }
 .caption {
   width: 100%;
+  color: black;
+  font-weight: bolder;
+  padding-left: 4px;
 }
 .headers {
   background-image: linear-gradient(to right, #434343 0%, black 100%);
-  color: var(--color2);
+  /* color: var(--color2); */
   text-align: center;
-  width: 100%;
+  width: 25%;
   margin-bottom: 1.5rem;
+  box-shadow: 10px 10px 5px #00000091;
+  display: block;
+  justify-items: center;
+  margin: auto;
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
 }
 
 .projects {
   box-shadow: 15px 5px 5px 5px #00000091;
+  border: rgba(39, 39, 39, 0.493) groove 5px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.projects:hover {
+  background-color: rgba(255, 255, 255, 0.808);
+  font-size: 1.5em;
 }
 
 .last {
