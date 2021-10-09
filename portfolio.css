@@ -11,7 +11,7 @@
 }
 
 body {
-  background: linear-gradient(-45deg, #f8f8f8, #0a0a0a, #151b52, #620909);
+  background: linear-gradient(-45deg, #000000, #10451d, #151b52, #ff9d9d);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 100%;
@@ -78,17 +78,20 @@ h1 {
 }
 
 .FullStack {
-  background-image: url(https://images.unsplash.com/photo-1580584126903-c17d41830450?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2137&q=80);
+  background-image: url(https://wallpaperforu.com/wp-content/uploads/2021/09/Coding-Wallpapers23-scaled.jpg;);
   color: var(--color2);
   width: 100%;
   min-height: 4em;
   position: relative;
   text-align: center;
   font-size: 3em;
+  background-color: #000000;
 }
 .Technologies {
-  display: flex;
-  justify-content: center;
+  width: 40%;
+  display: block;
+  justify-self: center;
+  margin: auto;
 }
 #project1 {
   width: 100%;
@@ -96,7 +99,6 @@ h1 {
 .caption {
   width: 100%;
 }
-
 .headers {
   background-image: linear-gradient(to right, #434343 0%, black 100%);
   color: var(--color2);
@@ -105,9 +107,18 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
+.projects {
+  box-shadow: 15px 5px 5px 5px #00000091;
+}
+
 .last {
   position: relative;
   top: 4em;
   left: 10em;
   text-align: center;
+}
+.contactMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
