@@ -105,9 +105,10 @@ h1 {
   background-image: linear-gradient(to right, #434343 0%, black 100%);
   /* color: var(--color2); */
   text-align: center;
-  width: 25%;
+  width: 53%;
   margin-bottom: 1.5rem;
-  box-shadow: 10px 10px 5px #00000091;
+  box-shadow: 15px 10px 10px #00000091;
+  border-radius: 5px;
   display: block;
   justify-items: center;
   margin: auto;
