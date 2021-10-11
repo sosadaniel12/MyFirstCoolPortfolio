@@ -22,26 +22,57 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../src/scss/main.scss" />
   </head>
 
   <body>
     <header>
-      <nav class="navbar navbar-light bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand text-light" href="#"><h1>Daniel Sosa</h1></a>
-          <ul class="header">
-            <li>
-              <a href="#contactMe">Contact Me</a>
-            </li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Technologies">Technologies</a></li>
-          </ul>
+          <a class="navbar-brand" href="#">Daniel Sosa</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#"
+                >About Me</a
+              >
+              <a class="nav-link" href="#">Technologies</a>
+              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link disabled">Contact Me</a>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
+
     <div>
       <section class="FullStack"><h2>Full Stack Developer</h2></section>
     </div>
+    <section>
+      <h2 class="headers">About Me</h2>
+      <div class="card" style="width: 25em">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </section>
     <main>
       <h2 id="technologies" class="headers">Technologies</h2>
       <section class="Technologies">
@@ -151,7 +182,7 @@
                 href="https://github.com/Blake-design/project1_videoGameFinder"
               >
                 <img
-                  src="./projectsSnaps/project1.png"
+                  src="../projectsSnaps/project1.png"
                   class="img-thumbnail"
                   alt="a game finder"
               /></a>
@@ -166,7 +197,7 @@
             <figure class="projects">
               <a href="https://github.com/sosadaniel12/the-AccurateWeatherApp">
                 <img
-                  src="./projectsSnaps/project2.png"
+                  src="../projectsSnaps/project2.png"
                   class="img-thumbnail"
                   alt="weather application"
               /></a>
@@ -179,7 +210,7 @@
             <figure class="projects">
               <a href="https://github.com/sosadaniel12/theWorkDayPlanner">
                 <img
-                  src="./projectsSnaps/project3.png"
+                  src="../projectsSnaps/project3.png"
                   class="img-thumbnail"
                   alt="work day planner"
               /></a>
@@ -217,6 +248,7 @@
         </div>
       </div>
       <br />
+
       <h3 class="headers">Contact Me</h3>
       <section class="contactMe">
         <div class="hstack gap-3">
@@ -240,7 +272,6 @@
           </div>
         </div>
       </section>
-
       <script src="/portfolio.js"></script>
     </main>
   </body>
