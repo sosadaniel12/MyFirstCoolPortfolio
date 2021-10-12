@@ -71,25 +71,24 @@ nav.header {
   right: 10%;
 }
 
-.FullStack {
-  background-image: url(https://c1.wallpaperflare.com/preview/906/1/293/programming-code-development-web.jpg);
-  color: var(--color2);
-  width: 100%;
+/* .FullStack {
+  /* background-image: url(https://c1.wallpaperflare.com/preview/906/1/293/programming-code-development-web.jpg); */
+/* color: var(--color2);
+  min-width: 100%;
   min-height: 4em;
   position: relative;
   text-align: center;
   font-size: 3em;
   background-color: #212529;
-}
-
-.FullStack > h2 {
+} */
+*/ .FullStack > h2 {
   border: black solid 5px;
   width: 25%;
   display: block;
   margin: auto;
   background-color: black;
 }
-.Technologies {
+/* .Technologies {
   width: 40%;
   display: block;
   justify-self: center;
@@ -99,7 +98,7 @@ nav.header {
   border-radius: 10px;
   padding: 4px;
   box-shadow: 30px 15px 15px #00000091;
-}
+} */
 #project1 {
   width: 100%;
 }
