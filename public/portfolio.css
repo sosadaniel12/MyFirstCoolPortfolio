@@ -81,11 +81,11 @@ nav.header {
   border-radius: 7px;
   box-shadow: 15px 10px 10px #00000091;
   margin-top: 1em;
-  width: 20%;
+  min-width: 20%;
   text-align: center;
   background-image: var(--backgroundImage);
   font-family: "Prompt", sans-serif;
-  padding-bottom: 3px;
+  padding: 3px;
 }
 /* .Technologies {
   width: 40%;
@@ -150,4 +150,10 @@ nav.header {
   background-image: var(--backgroundImage);
   margin-top: -1em;
   padding: 1.5em;
+}
+
+@media screen and(min-width: 1200px ) {
+  .headers {
+    min-width: 100%;
+  }
 }
