@@ -1,13 +1,13 @@
 :root {
-  --color1: #000080;
+  --backgroundImage: linear-gradient(to right, #434343 0%, black 100%);
   --color2: #eeede7;
   --color3: #868b8e;
-  --border: var(--color1) solid 6px;
+  --border: rgb(58, 57, 57) groove 5px;
 }
 
 * {
   color: var(--color2);
-  font-family: "Roboto Slab", serif;
+  font-family: "Prompt", sans-serif;
 }
 
 body {
@@ -71,22 +71,21 @@ nav.header {
   right: 10%;
 }
 
-/* .FullStack {
-  /* background-image: url(https://c1.wallpaperflare.com/preview/906/1/293/programming-code-development-web.jpg); */
-/* color: var(--color2);
-  min-width: 100%;
-  min-height: 4em;
-  position: relative;
-  text-align: center;
-  font-size: 3em;
-  background-color: #212529;
-} */
-*/ .FullStack > h2 {
-  border: black solid 5px;
-  width: 25%;
-  display: block;
+.FullStack {
+  display: flex;
+  justify-content: center;
   margin: auto;
-  background-color: black;
+}
+.FullStack > h2 {
+  border: var(--border);
+  border-radius: 7px;
+  box-shadow: 15px 10px 10px #00000091;
+  margin-top: 1em;
+  width: 20%;
+  text-align: center;
+  background-image: var(--backgroundImage);
+  font-family: "Prompt", sans-serif;
+  padding-bottom: 3px;
 }
 /* .Technologies {
   width: 40%;
@@ -109,18 +108,21 @@ nav.header {
   padding-left: 4px;
 }
 .headers {
-  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  background-image: var(--backgroundImage);
   /* color: var(--color2); */
   text-align: center;
-  width: 53%;
+  max-width: 51%;
   margin-bottom: 1.5rem;
   box-shadow: 15px 10px 10px #00000091;
   border-radius: 5px;
+  border: var(--border);
   display: block;
   justify-items: center;
   margin: auto;
   margin-bottom: 1.5em;
   margin-top: 1.5em;
+  font-family: "Prompt", sans-serif;
+  padding-bottom: 3px;
 }
 
 .projects {
@@ -145,7 +147,7 @@ nav.header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  background-image: var(--backgroundImage);
   margin-top: -1em;
   padding: 1.5em;
 }
