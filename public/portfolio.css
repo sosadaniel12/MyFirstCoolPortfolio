@@ -11,7 +11,7 @@
 }
 
 body {
-  background: linear-gradient(-45deg, #000000, #10451d, #151b52, #ff9d9d);
+  background: linear-gradient(-50deg, #000000, #10451d, #151b52, #ff9d9d);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 100%;
@@ -77,13 +77,27 @@ nav.header {
   margin: auto;
 }
 .FullStack > h2 {
-  margin-top: 0.5em;
-  background-image: linear-gradient(-50deg, #000000b6, #10451d9f, #151b5291);
-  border: rgba(189, 189, 189, 0.404) 2px groove;
-  border-radius: 3px;
+  background: linear-gradient(-45deg, #000000, #363636, #151b52, #9da7ff);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  text-align: center;
+  height: 100%;
+  width: 100%;
   box-shadow: 15px 10px 10px #00000091;
   padding: 3px;
 }
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 /* .Technologies {
   width: 40%;
   display: block;
