@@ -77,7 +77,7 @@ nav.header {
   margin: auto;
 }
 .FullStack > h2 {
-  background: linear-gradient(-45deg, #000000, #363636, #151b52, #9da7ff);
+  background: linear-gradient(-45deg, #621db1, #b020f35d, #151b52, #9da7ff);
   background-size: 400% 400%;
   animation: gradient 5s ease infinite;
   text-align: center;
