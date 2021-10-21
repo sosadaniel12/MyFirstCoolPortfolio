@@ -82,9 +82,11 @@ nav.header {
   animation: pulse 7s infinite;
   text-align: center;
   height: 100%;
-  width: 100%;
+  min-width: 50%;
   box-shadow: 15px 10px 10px #00000091;
-  padding: 3px;
+  border-radius: 5px;
+  margin-top: .5em;
+  padding: 13px;
 }
 @keyframes pulse {
   0% {
