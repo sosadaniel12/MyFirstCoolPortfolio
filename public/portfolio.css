@@ -77,16 +77,16 @@ nav.header {
   margin: auto;
 }
 .FullStack > h2 {
-  background: linear-gradient(-45deg, #621db1, #b020f35d, #151b52, #9da7ff);
+  background: linear-gradient(-45deg, #621db1, #b020f35d, #151b52, #10451d);
   background-size: 400% 400%;
-  animation: gradient 5s ease infinite;
+  animation: pulse 7s infinite;
   text-align: center;
   height: 100%;
   width: 100%;
   box-shadow: 15px 10px 10px #00000091;
   padding: 3px;
 }
-@keyframes gradient {
+@keyframes pulse {
   0% {
     background-position: 0% 50%;
   }
