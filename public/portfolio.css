@@ -97,10 +97,24 @@ nav.header {
     background-position: 0% 50%;
   }
 }
+.aboutMe {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 55%;
+  min-width: 70%;
+  border: #434343 groove 4px;
+  background-image: var(--backgroundImage);
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 30px 15px 15px #00000091;=
+}
+.aboutMe > p {
+  font-size: 1.3em;
+}
 
 .Technologies {
   max-width: 70%;
-  display: block;
   justify-self: center;
   margin: auto;
   border: #434343 groove 4px;
@@ -127,7 +141,6 @@ nav.header {
   box-shadow: 15px 10px 10px #00000091;
   border-radius: 5px;
   border: var(--border);
-  display: block;
   justify-items: center;
   margin: auto;
   margin-bottom: 1.5em;
