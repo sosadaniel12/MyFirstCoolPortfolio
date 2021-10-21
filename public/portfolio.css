@@ -83,9 +83,9 @@ nav.header {
   text-align: center;
   height: 100%;
   min-width: 50%;
-  box-shadow: 15px 10px 10px #00000091;
+  box-shadow: 30px 15px 15px #00000091;
   border-radius: 5px;
-  margin-top: .5em;
+  margin-top: 0.5em;
   padding: 13px;
 }
 @keyframes pulse {
@@ -109,7 +109,7 @@ nav.header {
   background-image: var(--backgroundImage);
   border-radius: 10px;
   padding: 12px;
-  box-shadow: 30px 15px 15px #00000091;=
+  box-shadow: 30px 15px 15px #00000091;
 }
 .aboutMe > p {
   font-size: 1.3em;
