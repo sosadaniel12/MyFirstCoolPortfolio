@@ -2,7 +2,7 @@
   --backgroundImage: linear-gradient(to right, #434343 0%, black 100%);
   --color2: #eeede7;
   --color3: #868b8e;
-  --border: rgb(58, 57, 57) groove 5px;
+  --border: rgb(58, 57, 57) medium 5px;
 }
 
 * {
@@ -103,7 +103,7 @@ nav.header {
   margin: auto;
   max-width: 55%;
   min-width: 70%;
-  border: #434343 groove 4px;
+  border: #434343 medium 4px;
   background-image: var(--backgroundImage);
   border-radius: 10px;
   padding: 12px;
@@ -117,7 +117,7 @@ nav.header {
   max-width: 70%;
   justify-self: center;
   margin: auto;
-  border: #434343 groove 4px;
+  border: #434343 medium 4px;
   background-image: var(--backgroundImage);
   border-radius: 10px;
   padding: 20px;
@@ -151,7 +151,7 @@ nav.header {
 
 .projects {
   box-shadow: 15px 5px 5px 5px #00000091;
-  border: rgba(39, 39, 39, 0.493) groove 5px;
+  border: rgba(39, 39, 39, 0.493) solid 5px;
   border-radius: 10px;
   background-color: white;
   color: black;
