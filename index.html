@@ -44,21 +44,21 @@
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
+            data-bs-target="navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
+            aria-expanded="true"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a class="nav-link active" aria-current="page" href="#aboutMe"
                 >About Me</a
               >
-              <a class="nav-link" href="#">Technologies</a>
-              <a class="nav-link" href="#">Projects</a>
-              <a class="nav-link disabled">Contact Me</a>
+              <a class="nav-link active" aria-current="page"  href="#">Technologies</a>
+              <a class="nav-link active" aria-current="page"  href="#">Projects</a>
+              <a class="nav-link active" aria-current="page" 4 href="#ContactMe">Contact Me</a>
             </div>
           </div>
         </div>
@@ -194,10 +194,10 @@
 
       <h3 class="headers">Contact Me</h3>
       <form
-        action="mailto:danielsosa2121@gmail.com"
+        action="form-to-email.php"
         method="POST"
         enctype="multipart/form-data"
-        name="contact_form"
+        name="myemailform"
       >
         <div class="mb-3 w-50 d-b m-auto">
           <label for="exampleFormControlInput1" class="form-label"
@@ -226,7 +226,7 @@
           <br />
           <button
             type="button"
-            value="Submit"
+            value="submit"
             class="btn btn-primary btn-sm d-block m-auto w-50"
           >
             Submit
