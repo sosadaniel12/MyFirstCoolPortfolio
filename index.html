@@ -194,11 +194,24 @@
 
       <h3 class="headers" id="ContactMe">Contact Me</h3>
       <form
-        action="form-to-email.php"
+      id="form"
+        action="https://getform.io/f/a103f70f-5192-4a75-a809-fc0e6cc87c45"
         method="POST"
-        enctype="multipart/form-data"
         name="myemailform"
+        enctype="multipart/form-data">
       >
+      <div class="mb-3 w-50 d-b m-auto">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Name</label
+        >
+        <input
+          type="name"
+          name="Contact-Name"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="Enter name here..."
+        />
+      </div>
         <div class="mb-3 w-50 d-b m-auto">
           <label for="exampleFormControlInput1" class="form-label"
             >Email address</label
@@ -225,7 +238,7 @@
           ></textarea>
           <br />
           <button
-            type="button"
+            type="submit"
             value="submit"
             class="btn btn-primary btn-sm d-block m-auto w-50"
           >
