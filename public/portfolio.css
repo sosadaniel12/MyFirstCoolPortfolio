@@ -7,7 +7,8 @@
 
 * {
   color: var(--color2);
-  font-family: "Prompt", sans-serif;
+  font-family: "Prompt", sans-serif, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
 body {
@@ -85,7 +86,7 @@ nav.header {
   min-width: 50%;
   box-shadow: 0 0 10px 6px #b020f3;
   border-radius: 5px;
-  margin-top: 0.5em;
+  margin-top: 1.2em;
   padding: 13px;
 }
 @keyframes pulse {
@@ -141,7 +142,7 @@ nav.header {
   max-width: 88%;
   margin-bottom: 1.5rem;
   /* box-shadow: 30px 15px 15px #00000091; */
-  box-shadow: 0px 0px 35px;
+  box-shadow: 0px 0px 16px 6px;
   border-radius: 5px;
   border: var(--border);
   justify-items: center;
@@ -149,7 +150,7 @@ nav.header {
   margin-bottom: 1.5em;
   margin-top: 1.5em;
   font-family: "Prompt", sans-serif;
-  padding: 13px;
+  padding: 15px;
 }
 
 .projects {
