@@ -12,25 +12,11 @@
 }
 
 body {
-  /* background: linear-gradient(-50deg, #a30808, #000000, #151b52, #ff9d9d);
-  background-size: 600% 600%;
-  animation: gradient 10s ease infinite; */
   height: 100%;
   background-color: #495057;
   width: 100%;
 }
 
-/* @keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-} */
 .header {
   display: flex;
   justify-content: space-evenly;
@@ -46,12 +32,6 @@ nav.header {
   align-items: flex-end;
 }
 
-/* nav > ul {
-  list-style-type: none;
-  background-image: linear-gradient(to right, #434343 0%, black 100%);
-  width: 100%;
-  min-height: 8em;
-} */
 .header {
   font-size: 1.5em;
 }
@@ -79,6 +59,7 @@ nav.header {
   margin: auto;
 }
 .FullStack > h2 {
+  background: linear-gradient(90deg, #621db1, #b020f3, #621db1, #b020f3);
   background: linear-gradient(90deg, #621db1, #b020f3, #621db1, #b020f3);
   background-size: 600% 500%;
   animation: pulse 4s infinite;
@@ -139,7 +120,7 @@ nav.header {
   width: 100%;
   color: black;
   font-weight: bolder;
-  padding-left: 4px;
+  padding: 10px;
 }
 .headers {
   /* background-image: var(--backgroundImage); */
@@ -161,14 +142,21 @@ nav.header {
 
 .projects {
   box-shadow: 15px 5px 5px 5px #00000091;
-  border: rgba(39, 39, 39, 0.493) solid 5px;
-  border-radius: 10px;
+  border-radius: 20px 20px 0 40px;
   background-color: white;
   color: black;
+  display: block;
+  justify-content: space-evenly;
+  height: 100%;
 }
 .projects:hover {
   background-color: rgba(255, 255, 255, 0.808);
   font-size: 1.2em;
+  border-radius: 10px;
+}
+
+div.col {
+  margin-top: 1.5em;
 }
 .form-control,
 .btn {
@@ -200,5 +188,13 @@ nav.header {
 
   .headers {
     max-width: 90%;
+  }
+}
+
+@media (max-width: 330px) {
+  .Technologies {
+    max-width: 100%;
+    margin: 10px;
+    padding: 10px;
   }
 }
