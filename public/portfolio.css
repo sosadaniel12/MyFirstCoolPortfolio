@@ -218,7 +218,17 @@ div.row {
 }
 
 @media screen and (min-width: 1000px) {
+  .Technologies div.col {
+    font-size: 1.4em;
+    margin: auto;
+    text-align: center;
+  }
+
   .Technologies {
-    max-width: 32%;
+    max-width: 35%;
+  }
+
+  .headers {
+    max-width: 30%;
   }
 }
