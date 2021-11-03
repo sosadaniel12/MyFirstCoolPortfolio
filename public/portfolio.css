@@ -12,14 +12,15 @@
 }
 
 body {
-  background: linear-gradient(-50deg, #000000, #10451d, #151b52, #ff9d9d);
+  /* background: linear-gradient(-50deg, #a30808, #000000, #151b52, #ff9d9d);
   background-size: 600% 600%;
-  animation: gradient 10s ease infinite;
+  animation: gradient 10s ease infinite; */
   height: 100%;
+  background-color: #495057;
   width: 100%;
 }
 
-@keyframes gradient {
+/* @keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
@@ -29,7 +30,7 @@ body {
   100% {
     background-position: 0% 50%;
   }
-}
+} */
 .header {
   display: flex;
   justify-content: space-evenly;
@@ -126,6 +127,11 @@ nav.header {
   padding: 20px;
   box-shadow: 30px 15px 15px #00000091;
 }
+
+.Technologies > .col {
+  border: black solid 4px;
+  border-radius: 10px;
+}
 #project1 {
   width: 100%;
 }
@@ -136,21 +142,21 @@ nav.header {
   padding-left: 4px;
 }
 .headers {
-  background-image: var(--backgroundImage);
+  /* background-image: var(--backgroundImage); */
+  background-color: #8f3737;
   /* color: var(--color2); */
   text-align: center;
-  max-width: 88%;
+  max-width: 45%;
   margin-bottom: 1.5rem;
   box-shadow: 30px 15px 15px #00000091;
-
-  border-radius: 5px;
+  border-radius: 52% 48% 49% 51% / 45% 50% 51% 53%;
   border: var(--border);
   justify-items: center;
   margin: auto;
   margin-bottom: 1.5em;
   margin-top: 1.5em;
   font-family: "Prompt", sans-serif;
-  padding: 15px;
+  padding: 25px;
 }
 
 .projects {
@@ -182,4 +188,17 @@ nav.header {
   background-image: var(--backgroundImage);
   margin-top: -1em;
   padding: 1.5em;
+}
+
+@media (max-width: 550px) {
+  .Technologies {
+    max-width: 90%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .headers {
+    max-width: 90%;
+  }
 }
