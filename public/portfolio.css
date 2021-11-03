@@ -112,6 +112,7 @@ nav.header {
 .Technologies > .col {
   border: black solid 4px;
   border-radius: 10px;
+  font-weight: bolder;
 }
 #project1 {
   width: 100%;
@@ -219,7 +220,7 @@ div.row {
 
 @media screen and (min-width: 1000px) {
   .Technologies div.col {
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin: auto;
     text-align: center;
   }
