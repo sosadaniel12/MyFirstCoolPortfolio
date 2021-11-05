@@ -117,11 +117,14 @@ nav.header {
 #project1 {
   width: 100%;
 }
+
+figure.projects {
+  min-height: 100%;
+}
 .caption {
   width: 100%;
-  color: black;
-  font-weight: bolder;
-  padding: 10px;
+  color: white;
+  padding: 5px;
 }
 .headers {
   /* background-image: var(--backgroundImage); */
@@ -134,24 +137,30 @@ nav.header {
   border-radius: 52% 48% 49% 51% / 45% 50% 51% 53%;
   border: var(--border);
   justify-items: center;
-  margin: auto;
-  margin-bottom: 1.5em;
-  margin-top: 1.5em;
+  margin: 2.5em auto;
   font-family: "Prompt", sans-serif;
   padding: 25px;
 }
 
+img.img-thumbnail {
+  border-radius: 10px;
+  background: none;
+  max-width: 100%;
+  border: none;
+}
+
 .projects {
   box-shadow: 10px 10px 10px 10px #00000091;
-  border-radius: 20px 20px 0 40px;
-  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  background-image: var(--backgroundImage);
   color: black;
   display: block;
   justify-content: space-evenly;
-  height: 100%;
+  max-height: 100%;
+  padding: 10px;
 }
 .projects:hover {
-  background-color: rgba(255, 255, 255, 0.808);
+  background-image: rgba(255, 255, 255, 0.808);
   font-size: 1.2em;
   border-radius: 10px;
 }
@@ -193,11 +202,20 @@ div.row {
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 370px) {
   .Technologies {
+    padding: 0;
+    text-align: center;
+  }
+  .aboutMe {
+    max-width: 90%;
+    font-size: 15px;
+  }
+
+  .projects {
     max-width: 100%;
-    margin: 10px;
-    padding: 10px;
+    font-size: 15px;
+    margin: 0;
   }
 }
 
@@ -219,6 +237,11 @@ div.row {
 }
 
 @media screen and (min-width: 1000px) {
+  .aboutMe {
+    font-size: 1.2em;
+    max-width: 50%;
+  }
+
   .Technologies div.col {
     font-size: 1.2em;
     margin: auto;
@@ -231,5 +254,13 @@ div.row {
 
   .headers {
     max-width: 30%;
+  }
+
+  .container1 {
+    max-width: 60%;
+    max-height: 70%;
+    display: block;
+    justify-content: center;
+    margin: auto;
   }
 }
