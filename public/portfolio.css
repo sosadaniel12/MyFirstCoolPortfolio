@@ -150,7 +150,6 @@ img.img-thumbnail {
 }
 
 .projects {
-  box-shadow: 7px 7px 7px 6px #00000091;
   border-radius: 20px 20px 20px 20px;
   background-image: var(--backgroundImage);
   color: black;
@@ -202,7 +201,7 @@ div.row {
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 400px) {
   .Technologies {
     padding: 0;
     text-align: center;
@@ -214,7 +213,7 @@ div.row {
 
   .projects {
     max-width: 100%;
-    font-size: 15px;
+    font-size: 18px;
     margin: 0;
   }
 }
