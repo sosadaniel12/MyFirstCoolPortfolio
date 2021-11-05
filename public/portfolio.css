@@ -126,6 +126,14 @@ figure.projects {
   color: white;
   padding: 5px;
 }
+
+figure.projects:hover,
+.caption:hover {
+  color: black;
+  background: #eeede7;
+  font-weight: bolder;
+}
+
 .headers {
   /* background-image: var(--backgroundImage); */
   background-color: #8f3737;
@@ -158,11 +166,12 @@ img.img-thumbnail {
   max-height: 100%;
   padding: 10px;
 }
-.projects:hover {
-  background-image: rgba(255, 255, 255, 0.808);
+/* .projects:hover {
+  background: #eeede7;
   font-size: 1.2em;
   border-radius: 10px;
-}
+  color: black;
+} */
 
 div.row {
   margin: 1.5em auto;
