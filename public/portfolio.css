@@ -243,7 +243,7 @@ div.row {
 @media screen and (min-width: 1000px) {
   .aboutMe {
     font-size: 1.2em;
-    max-width: 50%;
+    max-width: 60%;
   }
 
   .Technologies div.col {
