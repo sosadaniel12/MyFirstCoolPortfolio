@@ -127,8 +127,7 @@ figure.projects {
   padding: 5px;
 }
 
-figure.projects:hover,
-.caption:hover {
+.hoverProjects {
   color: black;
   background: #eeede7;
   font-weight: bolder;
@@ -166,12 +165,9 @@ img.img-thumbnail {
   max-height: 100%;
   padding: 10px;
 }
-/* .projects:hover {
-  background: #eeede7;
-  font-size: 1.2em;
-  border-radius: 10px;
-  color: black;
-} */
+.projects:hover {
+  border: red ridge 4px;
+}
 
 div.row {
   margin: 1.5em auto;
